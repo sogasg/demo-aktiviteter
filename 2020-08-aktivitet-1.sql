@@ -3,7 +3,7 @@ WITH ARBEIDER AS (
         KU.NAVN,
         KO.PENGER
     FROM
-        KUNDE AS KU
+        KUNDER AS KU
         INNER JOIN KODER AS KO ON KO.ID = KO.ID
     WHERE
         KU.TID = '23042020'
